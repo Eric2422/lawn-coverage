@@ -15,7 +15,7 @@ fig = plt.figure(figsize=(float(plt_img.size[0]), float(plt_img.size[1])))
 ax = fig.add_subplot(111)
 
 # Remove whitespace from around the image
-fig.subplots_adjust(left=0,right=1,bottom=0,top=1)
+fig.subplots_adjust(left=0, right=1, bottom=0, top=1)
 
 # Create a grid that divide the image into hundredths
 interval = plt_img.size[0] / 10
